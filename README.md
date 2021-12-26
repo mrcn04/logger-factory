@@ -1,2 +1,2 @@
 # logger-factory
-A minimal abstract logger factory for not dealing console.logs in prod
+A minimal abstract logger factory to avoid errors based on console.logs in production
