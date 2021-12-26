@@ -2,7 +2,7 @@
   "name": "abstract-logger-factory",
   "version": "1.0.0",
   "description": "custom abstract logger factory",
-  "main": "factory-class.ts",
+  "main": "./src/factory-class.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
