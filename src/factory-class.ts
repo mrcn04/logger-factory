@@ -1,10 +1,4 @@
-interface ILogger {
-  info(str: string): void;
-  debug(str: string): void;
-  warn(str: string): void;
-  error(str: string): void;
-  log(...args: any[]): void;
-}
+import { ILogger } from "./interfaces";
 
 class ProductionLogger implements ILogger {
   log(...args: any[]): void {}
@@ -36,7 +30,7 @@ class DevelopmentLogger implements ILogger {
   }
 }
 
-class Factory {
+export class Factory {
   static getLogger(): ILogger {
     return new (
       process.env.NODE_ENV === 'production' 
@@ -45,5 +39,3 @@ class Factory {
     )
   }
 }
-
-export const logger = Factory.getLogger()

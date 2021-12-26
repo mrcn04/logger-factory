@@ -1,6 +1,6 @@
-import { logger } from './factory-class'
+import { logger } from '../src/factory-class'
 
-function logEverything() {
+function logEverything(): void {
   logger.info("Info text"),
   logger.debug("Debug text"),
   logger.warn("Warn text"),
