@@ -1,9 +1,11 @@
 {
   "name": "abstract-logger-factory",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "custom abstract logger factory",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ömürcan Cengiz",
