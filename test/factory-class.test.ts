@@ -1,4 +1,4 @@
-import { logger } from '../src/factory-class'
+import { logger } from '../src/index'
 
 function logEverything(): void {
   logger.info("Info text"),
