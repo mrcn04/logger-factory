@@ -1,7 +1,7 @@
 {
   "name": "abstract-logger-factory",
-  "version": "0.0.2",
-  "description": "custom abstract logger factory",
+  "version": "0.1.0",
+  "description": "a minimal abstract logger factory",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
