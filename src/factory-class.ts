@@ -2,13 +2,13 @@ import { ILogger } from "./interfaces";
 
 class ProductionLogger implements ILogger {
   log(...args: any[]): void {}
-  info(str: string): void {}
-  debug(str: string): void {}
-  warn(str: string): void {
-    console.warn(str);
+  info<T>(msg: T): void {}
+  debug<T>(msg: T): void {}
+  warn<T>(msg: T): void {
+    console.warn(msg);
   }
-  error(str: string): void {
-    console.error(str);
+  error<T>(msg: T): void {
+    console.error(msg);
   }
 }
 
@@ -16,17 +16,17 @@ class DevelopmentLogger implements ILogger {
   log(...args: any[]): void {
     console.log(...args)
   }
-  info(str: string): void {
-    console.info(str);
+  info<T>(msg: T): void {
+    console.info(msg);
   }
-  debug(str: string): void {
-    console.debug(str);
+  debug<T>(msg: T): void {
+    console.debug(msg);
   }
-  warn(str: string): void {
-    console.warn(str);
+  warn<T>(msg: T): void {
+    console.warn(msg);
   }
-  error(str: string): void {
-    console.error(str);
+  error<T>(msg: T): void {
+    console.error(msg);
   }
 }
 

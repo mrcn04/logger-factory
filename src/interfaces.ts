@@ -1,7 +1,7 @@
 export interface ILogger {
-  info(str: string): void;
-  debug(str: string): void;
-  warn(str: string): void;
-  error(str: string): void;
+  info<T>(msg: T): void;
+  debug<T>(msg: T): void;
+  warn<T>(msg: T): void;
+  error<T>(msg: T): void;
   log(...args: any[]): void;
 }
