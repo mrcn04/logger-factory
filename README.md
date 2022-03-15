@@ -1,7 +1,14 @@
 # logger-factory
+
 A minimal abstract logger factory to avoid errors based on console.logs in production
 
 [![License](https://img.shields.io/github/license/thenewboston-developers/website)](http://opensource.org/licenses/MIT)
+
+## Future Works
+
+- Stack Information
+- Collection of the logs
+- Npm Create
 
 ## Contributors
 
@@ -21,6 +28,7 @@ A minimal abstract logger factory to avoid errors based on console.logs in produ
   <table>
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
