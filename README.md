@@ -2,7 +2,7 @@
 
 A minimal abstract logger factory to avoid errors based on console.logs in production
 
-[![License](https://img.shields.io/github/license/thenewboston-developers/website)](http://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](http://opensource.org/licenses/MIT)
 
 ## Future Works
 
